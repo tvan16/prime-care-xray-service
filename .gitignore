@@ -1,0 +1,17 @@
+# Bí mật
+.env
+.env.*
+!.env.example
+
+# Trọng số mô hình (~250 MB mỗi file, vượt giới hạn 100 MB của GitHub): tải riêng
+oralxrays9_detector/weights/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/

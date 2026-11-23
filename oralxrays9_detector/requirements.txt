@@ -1,0 +1,14 @@
+# Python 3.8. Versions are those the bundle was tested with (2026-11-20).
+# 1) PyTorch with CUDA 11.3 (CPU also works, ~1.4-4 s/image):
+#    pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+# 2) mmcv-full built for that torch/CUDA (needed for the deformable-attention op):
+#    pip install mmcv-full==1.7.0 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
+# 3) The rest:
+numpy==1.24.4
+scipy==1.10.1
+timm==1.0.28
+pycocotools==2.0.7
+matplotlib==3.7.5
+terminaltables==3.1.10
+six==1.17.0
+opencv-python

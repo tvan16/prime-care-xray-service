@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+!.env.example
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+tests
+.idea
+.vscode
+# Trọng số gắn vào lúc chạy, không đóng vào image
+oralxrays9_detector/weights
+oralxrays9_detector/mmdet/.mim
